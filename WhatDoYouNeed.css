@@ -1,0 +1,47 @@
+body{background-color: #fff;
+	background-repeat: repeat-x;
+	;
+}
+h1{position: absolute;
+	right: 465px;
+	left:425px;
+	
+
+}
+input{
+	position: absolute;
+	top: 130px;
+	left: 485px;
+	right: 100px;
+	bottom: 400px;
+	height:35px; 
+	width:150px;
+}
+select{
+	position: absolute;
+	top: 130px;
+	left: 333px;
+	right: 100px;
+	bottom: 500px;
+	height:35px; 
+	width:150px;
+
+}
+
+button{
+	position: absolute;
+	left: 636px;
+	right: 100px;
+	bottom: 472px;
+
+}
+ol{
+	font-size: 175%;
+	font-family: sans-serif;
+	position: absolute;
+	top:   230px;
+	bottom:  100px;
+	left:    290px;
+	right:   20px;
+
+}

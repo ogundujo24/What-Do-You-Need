@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Resources for the Homeless</title>
+<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase-database.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="WhatDoYouNeed.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type = "text/javascript" src ="WhatDoYouNeed1.js"></script>
+</head>
+
+<body>
+<h1> CtoC</h1>
+<input type="text" name="items" placeholder="Items Needed" id="mainText" >
+<select>
+<option option value = "Washington DC"> Washington DC</option>
+<option option value = "Detroit">Detroit</option>
+<option option value = "Philadelphia">Philadelphia</option>
+<option option value = "Las Vegas">Las Vegas</option>
+<option option value = "Boston">Boston</option>
+<option option value = "San Jose">San Jose</option>
+<option option value = "Santa Clara">Santa Clara</option>
+<option option value = "San Francisco"> San Francisco</option>
+<option option value = "San Diego"> San Diego</option>
+<option option value = "Seattle">Seattle</option>
+<option option value = "Los Angeles"> Los Angeles</option>
+<option option value = "New York"> New York</option>
+</select>
+<button  onclick= "submitClick()" type="button" class="btn btn-default" id="submitBtn"> Send</button>
+<ol> <li> Tell us where you are!</li>
+	<li> Type in what you need!</li>
+	<li> Press the send button!</li>
+	<li> We listen to what you are saying and bring what you what you need!</li>
+</ol>
+<script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAcWIv4F9lucI-PPAE4lwVH4aNk2vdVcsU",
+    authDomain: "homeless-resource-web-app.firebaseapp.com",
+    databaseURL: "https://homeless-resource-web-app.firebaseio.com",
+    projectId: "homeless-resource-web-app",
+    storageBucket: "homeless-resource-web-app.appspot.com",
+    messagingSenderId: "374416640899"
+  };
+  firebase.initializeApp(config);
+</script>
+
+
+
+</body>
+</html>
