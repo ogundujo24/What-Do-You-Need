@@ -6,4 +6,5 @@ var submitBtn = document.getElementById("submitBtn");
 		var messageText = $(mainText).val()
 var mainText = document.getElementById("mainText").value;
 		firebaseRef.push().set(mainText);
+		location.reload()
 	}
